@@ -8,11 +8,7 @@ using System.Diagnostics;
 
 namespace SpectruMLauncher
 {
-    public interface ILauncher //ПРОСТО ПОТОМУ ЧТО МОГУ И ХОЧУ
-    {
-        Command InitPlayer(string UserName, string UUID, string AccessToken);
-    }
-    internal class Launcher //: ILauncher Ну ладно, не буду
+    internal class Launcher
     {
         string MainPath;
         string command = "";
